@@ -13,10 +13,8 @@ import { Projects } from './components/projects';
 function App() {
   return (
     <div className="App">
-        <img src={bg} alt="bg" className="bg"/>
-        <Routes>
-          <Route path='/projects' Component={Projects} />
-        </Routes>
+        {/* <img src={bg} alt="bg" className="bg"/> */}
+
         < Header/>
 
         < Text/>

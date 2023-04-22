@@ -1,38 +1,81 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&family=Roboto+Condensed&display=swap');
+body{
+  background-color: #CAC9FF;
+}
+.header{
+  font-size: 32px;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 1%;
+  display: grid;
+  grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11% ;
+  column-gap: 20px;
+}
+.header_1{
   text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 3;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header_2{
+  text-align: center;
+  grid-column-start: 5;
+  grid-column-end: 5;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header_3{
+  text-align: center;
+  grid-column-start: 7;
+  grid-column-end: 7;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text{
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  display: grid;
+  grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11% ;
+  grid-template-rows: auto auto auto;
+  column-gap: 20px;
 }
+.text_1{
+  margin-top: 8%;
+  font-size: 96px;
+  text-align: center;
+  grid-column-start: 3;
+  grid-column-end: 6;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text_2{
+  margin-top: 0;
+  font-size: 64px;
+  text-align: center;
+  grid-column-start: 5;
+  grid-column-end: 8;
+}
+.bg{
+  top: 0;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.name{
+  color:#CAC9FF;
+}
+.front{
+  color: #FFFFFF;
+}
+.links{
+  display: grid;
+  grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11% ;
+  column-gap: 20px;
+}
+.linked{
+  grid-column-start: 4;
+  grid-column-end: 4;
+}
+.gh{
+  grid-column-start: 5;
+  grid-column-end: 5;
+}
+.email{
+  margin-top: -20px;
+  grid-column-start: 6;
+  grid-column-end: 6;
 }

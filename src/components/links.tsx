@@ -5,11 +5,11 @@ import email from "./email.png";
 export function Links(){
     return(
         <div className="links">
-            <img src={linked} alt="linked" className="linked"/>
+            <a href="https://www.linkedin.com/in/maris-locs-52a01a232/" className="linked"><img src={linked} alt="linked" /></a>
 
-            <img src={gh} alt="gh" className="gh"/>
+            <a href="https://github.com/Marjachok" className="gh">"<img src={gh} alt="gh" /></a> 
 
-            <img src={email} alt="email" className="email"/>
+            < a href="mailto:marislocs007@gmail.com" className="email"><img src={email} alt="email" /></a>
         </div>
     )
 }

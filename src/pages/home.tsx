@@ -18,7 +18,7 @@ function Home() {
 
         < Links/>
 
-        < About/>
+        < About />
 
         < Skills/>
     </div>

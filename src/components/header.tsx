@@ -15,8 +15,8 @@ export function Header() {
   return (
     <div className="header">
       <p className="header_1"><Link to="/home">Home</Link></p>
-      <p className="header_2"><a href="#about" onClick={() => smoothScrollTo('about')}>About me</a></p>
-      <p className="header_3"><a href="#skills" onClick={() => smoothScrollTo('skills')}>Skills</a></p>
+      <p className="header_2"><Link to="/home"><a href="#about" onClick={() => smoothScrollTo('about')}>About me</a></Link></p>
+      <p className="header_3"><Link to="/home"><a href="#skills" onClick={() => smoothScrollTo('skills')}>Skills</a></Link></p>
       <p className="header_4"><Link to="/projects">Projects</Link></p>
       <p className="header_5"><Link to="/contact">Contact</Link></p>
     </div>

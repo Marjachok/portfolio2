@@ -1,7 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;500&display=swap');
 @media only screen and (max-width:767px){
+  body{
+    background-color: #CAC9FF;
+  }
+  p{
+    font-family: 'Jura', sans-serif;
+  }
+  
+  .header{
+    font-size: 4vw;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+  }
+  .header_1{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 50px;
+    line-height: 50px;
+  }
+  .header_1 a {
+    text-decoration: none;
+    color: black;
+  }
+  .header_2{
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    height: 50px;
+    line-height: 50px;
+  }
+  .header_2 a {
+    text-decoration: none;
+    color: black;
+  }
+  .header_3{
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    height: 50px;
+    line-height: 50px;
+  }
+  .header_3 a {
+    text-decoration: none;
+    color: black;
+  }
 
+  .header_3{
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    height: 50px;
+    line-height: 50px;
+  }
+  .header_3 a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .header_4{
+    text-align: center;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    height: 50px;
+    line-height: 50px;
+  }
+  .header_4 a {
+    text-decoration: none;
+    color: black;
+  }
+  .header_5{
+    text-align: center;
+    grid-column-start: 5;
+    grid-column-end: 5;
+    height: 50px;
+    line-height: 50px;
+  }
+  .header_5 a {
+    text-decoration: none;
+    color: black;
+  }
+  .text{
+    margin-top: -5vh;
+  }
+  .text_1{
+    margin-top: 8%;
+    font-size: 9vw;
+    text-align: center;
+  }
+  .text_2{
+    margin-top: 0;
+    font-size: 8vw;
+    text-align: center;
+  }
+  .name{
+    color:#FFFFFF;
+  }
+  .front{
+    color: #FFFFFF;
+  }
+  .links{
+    margin-top : 0;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    place-items: center;
+  }
+  img{
+    width: 15vw;
+  }
+  .about{
+
+  }
+  .about_me{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    font-size: 8vw;
+    text-align: center;
+  }
+  ul{
+    list-style-type: none;
+    font-family: 'Jura', sans-serif;
+    line-height: 10vw;
+    padding: 0;
+    font-size: 6vw;
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .photo{
+    display: none;
+  }
+
+  .skills_h{
+    font-size: 8vw;
+    text-align: center;
+    margin-top: 0vh;
+  }
+  .skills_grid{
+    margin-top: 0vh;
+    text-align: center;
+    font-size: 5.5vw;
+  } 
+  
 }
 @media only screen and (min-width:768px){
 

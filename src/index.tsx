@@ -4,9 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import  Project_page  from "./pages/projects_page";
 import Home from "./pages/home";
-import  Contact_Page  from './pages/contact';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,10 +13,6 @@ ReactDOM.render(
         <Route path="/" element={ <Home /> }>
         </Route>
         <Route path="/home" element={ <Home /> }>
-        </Route>
-        <Route path="/projects" element={ <Project_page /> }>
-        </Route>
-        <Route path="/contact" element={ <Contact_Page/> }>
         </Route>
       </Routes>
     </BrowserRouter>

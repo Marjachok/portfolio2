@@ -6,6 +6,8 @@ import { Links } from '../components/links';
 import {Routes, Route , Link } from "react-router-dom";
 import { About } from '../components/about';
 import { Skills } from '../components/skills';
+import { Projects } from '../components/projects';
+import { Contact } from '../components/contact';
 
 
 function Home() {
@@ -21,6 +23,10 @@ function Home() {
         < About />
 
         < Skills/>
+
+        < Projects/>
+
+        <Contact/>
     </div>
   );
 }

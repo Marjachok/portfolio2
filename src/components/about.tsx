@@ -1,4 +1,4 @@
-import photo from "./photo.png"
+import photo from "./img/photo.png"
 
 export function About(){
     return(

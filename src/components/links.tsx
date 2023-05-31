@@ -1,6 +1,6 @@
-import linked from "./linked_in.png";
-import gh from "./github.png";
-import email from "./email.png";
+import linked from "./img/linked_in.png";
+import gh from "./img/github.png";
+import email from "./img/email.png";
 
 export function Links(){
     return(

@@ -3,7 +3,7 @@ import '../App.css';
 import { Header } from '../components/header';
 import { Text } from '../components/text';
 import { Links } from '../components/links';
-import {Routes, Route , Link } from "react-router-dom";
+// import {Routes, Route , Link } from "react-router-dom";
 import { About } from '../components/about';
 import { Skills } from '../components/skills';
 import { Projects } from '../components/projects';

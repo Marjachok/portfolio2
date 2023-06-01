@@ -5,7 +5,7 @@ export function Skills(){
         <div className="skills" id="skills">
             
             {/* <img src={bg} alt="background" className="bg" /> */}
-            <p className="skil"> &#160;</p>
+            <p className="skil"> &#160; </p>
 
             <p className="skills_h">Skills</p>
            
@@ -15,7 +15,7 @@ export function Skills(){
                     <p className="ts">TypeScript</p>
                     <p className="react">React</p>
                     <p className="css">CSS</p>
-                    <p className="figma">Figma</p>
+                    <p className="figma">Figma </p>
                 </div>
 
         </div>

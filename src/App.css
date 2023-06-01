@@ -853,10 +853,12 @@ ul{
   -ms-border-radius: 100px;
   -o-border-radius: 100px;
 }
+.skil{
+}
 .skills_h{
   font-size: 3.5vw;
   text-align: center;
-  margin-top: 40vh;
+  margin-top: 30vh;
 }
 .skills_grid{
   margin-top: 10vh;

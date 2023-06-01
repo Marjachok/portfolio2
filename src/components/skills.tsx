@@ -5,6 +5,7 @@ export function Skills(){
         <div className="skills" id="skills">
             
             {/* <img src={bg} alt="background" className="bg" /> */}
+            <p className="skil"> &#160;</p>
 
             <p className="skills_h">Skills</p>
            

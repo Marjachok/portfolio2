@@ -3,19 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <App/>
+    {/* <BrowserRouter>
       <Routes>
         <Route path="/" element={ <Home /> }>
         </Route>
         <Route path="/home" element={ <Home /> }>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

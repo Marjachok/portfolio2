@@ -5,7 +5,7 @@ import email from "./img/email.png";
 export function Links(){
     return(
         <div className="links">
-            <a href="https://www.linkedin.com/in/maris-locs-52a01a232/" className="linked"><img src={linked} alt="linked"/></a>
+            <a href="https://www.linkedin.com/in/m%C4%81ris-locs-52a01a232/" className="linked"><img src={linked} alt="linked"/></a>
 
             <a href="https://github.com/Marjachok" className="gh"><img src={gh} alt="gh" /></a> 
 
